@@ -1,0 +1,32 @@
+{
+    "name": "fewsh/domain-oriented",
+    "description": "domain oriented design for laravel",
+    "autoload": {
+        "psr-4": {
+            "Fewsh\\DomainOriented\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iceiceice",
+            "email": "fewsh.son@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fewsh\\DomainOriented\\DomainOrientedServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "illuminate/console": "^11.41",
+        "illuminate/support": "^11.41",
+        "symfony/console": "^7.2",
+        "symfony/yaml": "^7.2"
+    },
+    "require": {
+        "php": "*"
+    },
+    "version": "1.0.0"
+}
