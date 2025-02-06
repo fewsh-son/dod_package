@@ -15,6 +15,7 @@ class DomainOrientedServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Console\PublishCommand::class,
+                Console\DeleteDirectoryCommand::class
             ]);
         }
     }
